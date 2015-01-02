@@ -33,5 +33,8 @@
     "BaiduMapApi",
     "stdc++"
   ],
-  "requires_arc": true
+  "requires_arc": true,
+  "xcconfig": {
+    "LIBRARY_SEARCH_PATHS": "$(PODS_ROOT)/Baidu-Maps-iOS-SDK"
+  }
 }
